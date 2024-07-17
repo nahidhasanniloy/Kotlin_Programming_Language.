@@ -34,8 +34,48 @@ fun main() {
             }
         }
     }
+    nex()
+}
+
+
+//Find The Maximum Number From The Three Number
+
+
+fun nex(){
+    println("Nested if else ...")
+    println(" Find The Maximum Number From The Three Number  ")
+
+    println(" Enter Your First No :" )
+    var number1:Int = Integer.valueOf(readln())
+    println("Enter Your second No :")
+    var number2:Int=Integer.valueOf(readln())
+    println("Enter Your third No :")
+    var number3:Int=Integer.valueOf(readln())
+
+    val result = if (number1>number2){
+
+       val maximum = if (number1>number3){
+           number1
+
+
+        }
+        else{
+            number3
+        }
+        " Your maximum No :$maximum "
+    }
+    else if (number2>number3){
+        " Maximum Number is $number2"
+    } else {
+        "The maximum Number is : $number3"
+    }
+
+    println(result)
+
 
 }
+
+
 
 
 
