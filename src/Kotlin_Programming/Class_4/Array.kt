@@ -52,6 +52,6 @@ fun input() {
 //    b[0]=20.4
 //    println("Int Array: ${a[2]}")
 //    println("double Array: ${b[3]}")
-//
+
 
 }
