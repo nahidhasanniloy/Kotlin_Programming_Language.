@@ -4,9 +4,6 @@ fun  main(){
         var adnan = 2
             for ( i in 0..78 step 3)
                println(i)
-
-
-
     next()
     next1()
 }
@@ -16,10 +13,7 @@ fun  next(){
     for ( i in 10 downTo -100 step 2)
         println(i)
 
-
 }
-
-
 fun next1 (){
         val num = 7
         for (i in 1..10)

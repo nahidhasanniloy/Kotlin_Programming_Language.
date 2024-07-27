@@ -7,19 +7,12 @@ fun main (){
     jibon("Hasib ahmed",21,5.11,)
     operator()
     Result()
-
 }
+    fun adnan( name:String, Age:Int , Height :Double) {
+        println(" This is my friend name : $name, Age :$Age , height :$Height ")
+    }
 
-fun adnan( name:String, Age:Int , Height :Double) {
+        fun jibon( name:String, Age:Int, Height :Double) {
+            println(" This is my name : $name, Age :$Age , height :$Height ")
 
-    println(" This is my friend name : $name, Age :$Age , height :$Height ")
-
-}
-
-
-fun jibon( name:String, Age:Int, Height :Double) {
-
-    println(" This is my name : $name, Age :$Age , height :$Height ")
-
-
-}
+        }

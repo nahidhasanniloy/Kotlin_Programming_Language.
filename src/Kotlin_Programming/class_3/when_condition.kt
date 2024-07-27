@@ -1,21 +1,20 @@
 
 fun main (){
-//    println(" Enter Your Temp :")
-//    val temp = readln().toInt()
-//
-//    when(temp){
-////        10 -> println(" Ac OF ")
-////        20 -> println(" Ac ON ")
-////        30 ->println(" High temp  ")
-////        else -> println(" Nothing ")
-//
-//    }
+    println(" Enter Your Temp :")
+    val temp = readln().toInt()
+
+    when(temp){
+        10 -> println(" Ac OF ")
+        20 -> println(" Ac ON ")
+        30 ->println(" High temp  ")
+        else -> println(" Nothing ")
+
+    }
 score()
     temp()
-    age()
+        age()
 
 }
-
 fun score() {
     println("Enter Your Score :")
      var yourscore = readln().toInt()
@@ -45,7 +44,7 @@ fun temp(){
 
 fun age(){
 
-    val age = 30
+    val age = 5
     val result  = when(age){
         10 -> " Child "
         20 -> " Young "
@@ -55,7 +54,7 @@ fun age(){
 
     }
     println(result)
-
+    asd()
 }
 
 
@@ -63,3 +62,49 @@ fun age(){
 
 
 
+
+
+
+
+//while loop
+
+fun another(){
+    var i = 0
+
+    while (i < 5) {
+        println("i = $i")
+        i++
+    }
+
+}
+
+
+fun asd(){
+    var adnan = 4
+
+    while ( adnan<100){
+        println( "This is = $adnan ")
+        adnan++
+
+
+    }
+an()
+}
+
+
+// Infinite while Loop with Break
+
+fun an() {
+    var count = 0
+
+    while (true) {
+        println("Count: $count")
+        count++
+
+        if (count >= 5) {
+            println("Breaking the loop.")
+            break
+
+        }
+    }
+}
